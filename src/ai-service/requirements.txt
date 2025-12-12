@@ -7,3 +7,4 @@ pyyaml
 semantic-kernel==0.4.2.dev0
 azure.identity==1.14.0
 requests==2.31.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
